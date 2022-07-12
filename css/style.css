@@ -69,6 +69,7 @@ body {
   transition: height 0.5s;
   z-index: 9999;
 }
+
 .header-open {
   height: 400px;
 }
@@ -444,13 +445,144 @@ body {
 }
 
 
-
-
 /* 고객센터 */
-.cs {}
+.cs {
+  background-color: #f8f8f8;
+}
+.cs .inner {
+  padding: 60px 0;
+}
+
+.cs .inner a{
+  display: block;
+  float: left;
+  width: calc(50% - 1px);
+  padding: 50px 55px;
+}
+
+.cs-faq {
+  margin-right: 2px;
+  background: #fff url('../images/bg_faq.png') no-repeat;
+  background-position: calc(100% - 50px) center;
+}
+
+.cs-qa {
+  background: #fff url('../images/bg_custom.png') no-repeat;
+  background-position: calc(100% - 50px) center;
+}
+
+.cs h3 {
+  font-size: 30px;
+  color: #000;font-weight: 500;
+}
+.cs p {
+  font-weight: 300;
+}
+
 
 /* 소개 */
 .about {}
 
+.about .inner {
+  padding: 100px 0;
+}
+
+.about-top {
+  background: url('../images/img_about.png') no-repeat;
+  background-position: right top;
+  padding-bottom: 70px;
+}
+.about-top h2 {
+  font-size: 44px;
+  color: #111;
+  margin-bottom: 55px;
+  font-weight: 700;
+
+}
+
+.about-top p {
+  padding-left: 100px;
+  position: relative;
+}
+
+.about-top p::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 37px;
+  height: 5px;
+  background-color: #ed1c24;
+}
+
+.about-top p strong{
+  display: block;
+font-size: 21px;
+color: #111;
+font-weight: 500;
+margin-bottom: 25px;
+}
+
+.about-top p span{
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.about-bottom {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.about-bottom a {
+  font-size: 22px;
+  color: #111;
+  display: inline-block;
+  margin-right: 210px;
+
+}
+.about-bottom a::before {
+  content: '';
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 108px;
+  background: url('../images/bg_icon.png') no-repeat;
+  margin-bottom: 25px;
+}
+.about-bottom .about-link-1::before {
+  background-position: 0 0;
+}
+.about-bottom .about-link-2::before {
+  background-position: 50% 0;
+}
+.about-bottom .about-link-3::before {
+  background-position: 100% 0;
+  margin-right: 0px;
+}
+
+
 /* 하단 */
-.footer {}
+.footer {
+  background-color: #4e4E4e;
+}
+
+.footer .inner {
+  padding: 50px 0;
+}
+
+.footer-wrap {
+  padding-left: 250px;
+  background: url('../images/logo_footer.png') no-repeat;
+}
+.footer-wrap address {
+  color: #c3c3c3;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.copy {
+  color: #c3c3c3;
+  font-size: 14px;
+  line-height: 1.8;
+}
