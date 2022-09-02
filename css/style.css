@@ -76,13 +76,35 @@ body {
   border: 5px solid rgba(0, 0, 0, 0.1);
 
 }
-.modal-main h1 {
+
+.modal-main span {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
   color: #000;
   padding: 20px 0;
 }
+
+.modal-main .modal-icon {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.modal-main .modal-icon span {
+  font-size: 25px;
+  color: #ad2226;
+  text-shadow: 2px 2px 2px rgb(212, 210, 210);
+}
+.modal-main h1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #000;
+  text-shadow: 2px 2px 2px rgb(192, 192, 192);
+  padding-bottom: 10px;
+}
+
 .modal-main p {
   text-align: center;
   font-size: 16px;
@@ -90,16 +112,19 @@ body {
   color: #111;
   line-height: 1.8;
 }
+
 .modal-main b {
   font-weight: 600;
   text-decoration: underline;
   color: #ed1c24;
 }
+
 .modal-main strong {
   font-weight: 600;
   text-decoration: underline;
   color: #ed1c24;
 }
+
 .modal-close {
   position: absolute;
   right: 30px;
@@ -110,11 +135,11 @@ body {
   background-color: transparent;
   color: #999;
 }
+
 .modal-close:hover {
   transform: rotate(90deg);
   transition: transform 0.5s;
 }
-
 
 .wrap {
   padding-top: 80px;
